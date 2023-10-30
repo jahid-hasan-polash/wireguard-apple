@@ -33,7 +33,7 @@ let package = Package(
                 "Makefile"
             ],
             publicHeadersPath: ".",
-            linkerSettings: [.linkedLibrary("wg-go")]
+            linkerSettings: [.linkedLibrary("wireguard-go")]
         )
     ]
 )
